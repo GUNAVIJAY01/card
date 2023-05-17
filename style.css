@@ -1,0 +1,68 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;} 
+  .container{
+	         width:90%;
+			 margin:auto;
+     	   }
+.row{
+	 display:flex;
+}
+.col{
+	 font-family:arial;
+	width:33.33%;
+      padding:0 15px;
+	
+}
+.fullset{
+	   margin:15px 0;
+	   box-shadow:0px 0px 10px #cccc;
+}
+ .img-sec {
+	     overflow:hidden;
+	     position:relative;
+		 
+ }
+.img-sec h3{
+	 position:absolute;
+	 top:10px;
+	 left:10px;
+	 background-color:white;
+	 color:blue;
+ }
+ .img-sec i{
+	 position:absolute;
+	 top:10px;
+	 right:20px;
+	 font-size:25px;
+	 color:white;
+	 
+ }
+ .content{
+	   padding:15px;
+ }
+ .icon-text p{
+	 padding:20px 0 0 25px;
+	color:gray;
+	}
+.rio h3{
+			 padding:15px 0;
+		 }
+.icon span{
+			  padding:0 15px;
+		 }
+.icon i{
+			 color:yellow;
+		 }
+.icon{padding-bottom:15px;
+	 border-bottom:1px solid black;
+	 width:100%;
+}
+img{
+	transition:1s;
+}
+img:hover{ 
+          transform:scale(1.2);
+	
+}
