@@ -6,8 +6,14 @@
 	         width:90%;
 			 margin:auto;
      	   }
+.head h4{color:blue;	  
+}.head{ 
+		padding:15px;	
+	    text-align:center;
+}
 .row{
 	 display:flex;
+	 flex-wrap:wrap;
 }
 .col{
 	 font-family:arial;
@@ -42,8 +48,11 @@
  .content{
 	   padding:15px;
  }
- .icon-text p{
-	 padding:20px 0 0 25px;
+ .icon-text{
+	 padding:5px 25px;
+ }
+ .icon-text span{
+	 padding:12px;
 	color:gray;
 	}
 .rio h3{
@@ -65,4 +74,38 @@ img{
 img:hover{ 
           transform:scale(1.2);
 	
+}
+.last{
+	display:flex;
+	justify-content:space-between;
+    padding:15px 0;
+	position:relative;
+}
+.last i{
+	 color:gray;
+	 padding:0 5px;
+}
+.last b{
+	  font-size:18px;
+	  color:blue;
+	  position:relative;
+}
+del{position:absolute;
+	font-size:10px;
+	left:60px;
+	top:20px;
+}
+.course{
+	background-color:blue;
+	color:white;
+	padding:15px 15px;
+	border-radius:5%;
+
+}
+.course span{
+	
+	padding-left:5px;
+}
+.set{
+	margin-left:40%;
 }
